@@ -1,2 +1,4 @@
-# Senior-solar
-Esse é um projeto integrador para faculdade.
+# Escolhemos trabalhar com a ODS 7 porque acreditamos que a energia é a base de tudo. Sem ela, não há desenvolvimento, qualidade de vida ou sustentabilidade. A ODS 7 busca garantir que todas as pessoas tenham acesso a uma energia limpa, segura e a um custo justo, algo essencial para reduzir desigualdades e cuidar do meio ambiente.
+
+Decidimos desenvolver o projeto junto à empresa Senior Solar, de Dois Vizinhos (PR), porque ela representa exatamente o que essa ODS defende. A empresa trabalha com energia solar, levando soluções sustentáveis para casas, comércios e propriedades rurais da região. Além de reduzir custos e emissões de poluentes, a Senior Solar também ajuda as pessoas a se tornarem mais independentes em relação à energia elétrica.
+Outro ponto que nos chamou atenção é o envolvimento da empresa em ações educativas e campanhas de conscientização sobre o uso responsável da energia, mostrando que é possível crescer economicamente e ainda fazer o bem para o meio ambiente. 
