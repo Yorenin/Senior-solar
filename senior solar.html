@@ -4,56 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Senior Solar | Energia Limpa e Sustentável</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #fff;
-            color: #333;
-        }
-        .text-solar-blue {
-            color: #0077B6;
-        }
-        .bg-solar-blue {
-            background-color: #0077B6;
-        }
-        .text-solar-yellow {
-            color: #FFC300;
-        }
-        .bg-solar-yellow {
-            background-color: #FFC300;
-        }
-        .bg-dark-blue-footer {
-            background-color: #03045E;
-        }
-        .logo-img-container {
-            background-color: #0077B6; 
-            padding: 8px 12px; /* Espaçamento ao redor da logo (para fazer o quadrado) */
-            border-radius: 8px; 
-            display: inline-block; /* Garante que o padding e o background funcionem */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .logo-img-container img {
-            max-height: 30px; 
-            width: auto;
-            display: block; 
-        }
-        .hero-bg {
-            background-color: #03045E;
-            background-size: cover;
-            background-position: center;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+    </head>
+
+<body class="overflow-x-hidden"> <div class="overflow-x-hidden">
 
 <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <!-- Logotipo com imagem funcionando (espero) -->
         <a href="logo-senior-minimalista-1.png.webp" class="logo-img-container" aria-label="Senior Solar - Página Inicial">
             <img src="logo-senior-minimalista-1.png.webp" alt="Logotipo Senior Solar" />
         </a>
@@ -72,28 +35,27 @@
 
     <section class="hero-bg text-white py-28 flex items-center justify-center text-center">
         <div class="container mx-auto max-w-4xl px-6">
-            <h1 class="text-5xl font-extrabold mb-4 leading-tight">
+            <h1 class="text-5xl font-extrabold mb-4 leading-tight animate-fade-in-up">
                 Seu Futuro com <span class="text-solar-yellow">Energia Limpa</span> e Acessível
             </h1>
-            <p class="text-xl mb-8 font-light max-w-3xl mx-auto">
+            <p class="text-xl mb-8 font-light max-w-3xl mx-auto animate-fade-in-up animation-delay-200">
                 Na Senior Solar, oferecemos soluções completas de energia fotovoltaica para sua casa, comércio ou propriedade rural no Sudoeste do Paraná — ajudando você a economizar e proteger o planeta.
             </p>
-            <a href="#contato" class="inline-block bg-solar-yellow text-gray-900 font-bold py-4 px-12 rounded-full shadow-lg hover:bg-yellow-400 transition transform hover:scale-105">
+            <a href="#contato" class="inline-block bg-solar-yellow text-gray-900 font-bold py-4 px-12 rounded-full shadow-lg hover:bg-yellow-400 transition transform hover:scale-105 animate-fade-in-up animation-delay-400">
                 Peça Seu Orçamento Já
             </a>
         </div>
     </section>
 
     <section id="impacto" class="py-20 bg-gray-50 text-center px-6">
-        <h2 class="text-4xl font-extrabold text-solar-blue mb-6">Nosso Compromisso com o Planeta</h2>
-        <p class="max-w-3xl mx-auto text-gray-700 mb-12">
+        <h2 class="text-4xl font-extrabold text-solar-blue mb-6" data-aos="fade-up">Nosso Compromisso com o Planeta</h2>
+        <p class="max-w-3xl mx-auto text-gray-700 mb-12" data-aos="fade-up" data-aos-delay="100">
             Para nós, energia solar é mais que um negócio — é um compromisso com a sustentabilidade, inclusão e um futuro melhor para todos. Conheça nossas ações que reforçam o ODS 7, garantindo energia limpa e acessível.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition">
+            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
                 <div class="text-solar-yellow mb-4 text-5xl">
-                    <!-- Ícone pesquisa comunitária -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-12 w-12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                 </div>
                 <h3 class="text-xl font-bold text-solar-blue mb-2">Mapeamento Comunitário</h3>
@@ -102,9 +64,8 @@
                 </p>
             </div>
 
-            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition">
+            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
                 <div class="text-solar-yellow mb-4 text-5xl">
-                    <!-- Ícone campanhas educativas -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-12 w-12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 2v6m0 16v-6M4.22 4.22l4.95 4.95M19.78 19.78l-4.95-4.95M2 12h6m16 0h-6M4.22 19.78l4.95-4.95M19.78 4.22l-4.95 4.95"/></svg>
                 </div>
                 <h3 class="text-xl font-bold text-solar-blue mb-2">Campanhas Educativas</h3>
@@ -113,9 +74,8 @@
                 </p>
             </div>
 
-            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition">
+            <div class="bg-white rounded-xl p-8 shadow-lg border-l-8 border-solar-blue hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="400">
                 <div class="text-solar-yellow mb-4 text-5xl">
-                    <!-- Ícone sorteio -->
                     <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-12 w-12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="3" y="14" width="18" height="8" rx="2"/><path d="M12 14v8"/><path d="M17 14h1c.5 0 1-.5 1-1V5c0-.5-.5-1-1-1h-1M7 14H6c-.5 0-1-.5-1-1V5c0-.5.5-1 1-1h1"/><rect x="3" y="3" width="18" height="3" rx="1"/></svg>
                 </div>
                 <h3 class="text-xl font-bold text-solar-blue mb-2">Sorteios Mensais</h3>
@@ -129,7 +89,7 @@
 
     <section id="ods7" class="bg-solar-blue text-white py-20 px-6">
         <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-12 items-center">
-            <div class="bg-blue-800 bg-opacity-30 border-l-4 border-solar-yellow rounded-xl shadow-lg p-8">
+            <div class="bg-blue-800 bg-opacity-30 border-l-4 border-solar-yellow rounded-xl shadow-lg p-8" data-aos="fade-right">
                 <h3 class="text-3xl font-bold text-solar-yellow mb-4">Por que o ODS 7 importa?</h3>
                 <p class="leading-relaxed text-lg">
                     Trabalhamos para garantir energia limpa, moderna e acessível a todos, apoiando o Desenvolvimento Sustentável e a qualidade de vida no Sudoeste do Paraná.
@@ -139,7 +99,7 @@
                 </p>
             </div>
 
-            <div>
+            <div data-aos="fade-left" data-aos-delay="100">
                 <h3 class="text-4xl font-extrabold mb-4">Nossa Missão</h3>
                 <p class="text-lg leading-relaxed mb-4">
                     Levar energia solar de qualidade, reduzir custos e impactar positivamente o meio ambiente, criando um amanhã melhor para você e sua comunidade.
@@ -152,10 +112,10 @@
     </section>
 
     <section id="servicos" class="bg-white py-20 px-6 text-center">
-        <h2 class="text-4xl font-extrabold text-solar-blue mb-12">Nossos Serviços</h2>
+        <h2 class="text-4xl font-extrabold text-solar-blue mb-12" data-aos="fade-up">Nossos Serviços</h2>
         <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
 
-            <div class="p-8 border-b-4 border-solar-yellow bg-gray-50 rounded-xl shadow hover:shadow-lg transition">
+            <div class="p-8 border-b-4 border-solar-yellow bg-gray-50 rounded-xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
                 <div class="mb-4 text-solar-blue">
                     <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-14 w-14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                         <path d="M12 2v20"></path><path d="M17 5H7M17 19H7"></path><rect x="2" y="5" width="20" height="14" rx="2"/>
@@ -167,7 +127,7 @@
                 </p>
             </div>
 
-            <div class="p-8 border-b-4 border-solar-yellow bg-gray-50 rounded-xl shadow hover:shadow-lg transition">
+            <div class="p-8 border-b-4 border-solar-yellow bg-gray-50 rounded-xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
                 <div class="mb-4 text-solar-blue">
                     <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-14 w-14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                         <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
@@ -182,7 +142,7 @@
             </div>
 
         </div>
-        <a href="#contato" class="mt-12 inline-block bg-solar-blue text-white font-semibold py-3 px-10 rounded-full hover:bg-opacity-90 transition shadow-lg">
+        <a href="#contato" class="mt-12 inline-block bg-solar-blue text-white font-semibold py-3 px-10 rounded-full hover:bg-opacity-90 transition shadow-lg" data-aos="fade-up" data-aos-delay="300">
             Fale com nosso time
         </a>
     </section>
@@ -190,7 +150,7 @@
     <section id="contato" class="bg-dark-blue-footer text-white py-20 px-6">
         <div class="container mx-auto max-w-6xl grid md:grid-cols-2 gap-12">
 
-            <div>
+            <div data-aos="fade-right">
                 <h2 class="text-4xl font-extrabold text-solar-yellow mb-6">Vamos conversar?</h2>
                 <p class="mb-8 text-gray-300">
                     Conte conosco para iniciar sua jornada com energia solar. Estamos aqui para tirar dúvidas e ajudar você a aproveitar todos os benefícios.
@@ -211,7 +171,7 @@
                 </ul>
             </div>
 
-            <form onsubmit="handleFormSubmit(event)" class="bg-white rounded-xl p-8 shadow-lg text-gray-800">
+            <form onsubmit="handleFormSubmit(event)" class="bg-white rounded-xl p-8 shadow-lg text-gray-800" data-aos="fade-left" data-aos-delay="100">
                 <h3 class="text-2xl font-semibold mb-6">Solicite seu Orçamento</h3>
                 <div class="mb-4">
                     <input type="text" id="nome" name="nome" placeholder="Seu Nome Completo" required class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-solar-blue" />
@@ -240,21 +200,9 @@
     <p>&copy; 2025 Senior Solar. Todos os direitos reservados. Energia limpa, sustentável e acessível para todos.</p>
 </footer>
 
-<script>
-    function handleFormSubmit(event) {
-        event.preventDefault();
-        const messageEl = document.getElementById('form-message');
-        messageEl.textContent = 'Obrigado pelo contato! Responderemos você em breve.';
-        messageEl.classList.remove('hidden');
-        setTimeout(() => {
-            document.getElementById('nome').value = '';
-            document.getElementById('email').value = '';
-            document.getElementById('telefone').value = '';
-            document.getElementById('mensagem').value = '';
-            messageEl.classList.add('hidden');
-        }, 5000);
-    }
-</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-</body>
+<script src="script.js"></script>
+
+</div></body>
 </html>
